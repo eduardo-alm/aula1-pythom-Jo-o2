@@ -15,4 +15,5 @@ numero2 = int(input("Digite o 2º numero"))
 
 total = numero1 + numero2
 
-print()
+print(f"Resultado:{total}")
+
