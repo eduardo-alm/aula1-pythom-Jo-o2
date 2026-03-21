@@ -23,3 +23,26 @@ salario10 = salario * 0.1
 salario20 = salario * 0.2
 
 print(f"Resultado salario com aumento de 10%: {salario10}, Resultado salario com aumento de 20%: {salario20}")
+
+#EXERCICIO4
+ac = float(input("Digite a nota da sua AC:  "))
+agh = float(input("Digite a nota da sua AGH: "))
+at = float(input("Digite a nota da sua AT: "))
+
+nota_final = ((ac * 3) + (agh * 2) + (at * 5)) / 10
+
+if nota_final < 6:
+    print("Reprovado")
+else:
+    print("Aprovado")
+
+print(f"Sua media do trimestre sera: {nota_final}.")
+
+#EXERCICIO5
+nomeProduto = input("Digite o nome do produto: ")
+preco = int(input("Digite o preco do produto: "))
+
+preco5 = preco * 0.1
+precodesc5 = preco - preco5
+
+print(f"O preco com desconto sera: {precodesc5}")
